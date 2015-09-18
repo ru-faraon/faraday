@@ -4,6 +4,18 @@
     <script src="documentup.min.js"></script>
     <script>
       DocumentUp.document("infobyte/faraday");
+      DocumentUp.document({
+  repo:  "infobyte/faraday",
+  name: "Faraday",
+  twitter: [
+    "faradaysec"
+  ],
+  theme: "v1",
+  google_analytics: "UA-46485512-1"
+  afterRender: function(){
+    alert("rendered");
+  }
+});
     </script>
   </head>
   <body></body>
