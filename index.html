@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Faraday : Collaborative Penetration Test IDE">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Faraday</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/infobyte/faraday">View on GitHub</a>
+
+          <h1 id="project_title">Faraday</h1>
+          <h2 id="project_tagline">Collaborative Penetration Test IDE</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/infobyte/faraday/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/infobyte/faraday/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><img src="https://raw.github.com/wiki/infobyte/faraday/images/Faraday-Logo.png" alt="Faraday Logo"></p>
+
+<p>Faraday introduces a new concept (IPE) Integrated Penetration-Test Environment a multiuser Penetration test IDE. Designed for distribution, indexation and analysis of the generated data during the process of a security audit.</p>
+
+<p>The main purpose of Faraday is to re-use the available tools in the community to take advantage of them in a multiuser way.</p>
+
+<p>Designed for simplicity, users should notice no difference between their own terminal application and the one included in Faraday. Developed with a specialized set of functionalities that help users improve their own work. Do you remember yourself programming without an IDE? Well, Faraday does the same as an IDE does for you when programming, but from the perspective of a penetration test.</p>
+
+<p><img src="https://raw.github.com/wiki/infobyte/faraday/images/GUI_Dashboard_new.png" alt="GUI - Web"></p>
+
+<p><img src="https://raw.github.com/wiki/infobyte/faraday/images/Faraday-Mainwindow.png" alt="GUI - QT"></p>
+
+<p>Please read the <a href="https://github.com/infobyte/faraday/blob/master/RELEASE.md">RELEASE notes</a>!</p>
+
+<h2>
+<a id="plugins-list" class="anchor" href="#plugins-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plugins list:</h2>
+
+<p>Right now faraday has more than <a href="https://github.com/infobyte/faraday/wiki/Plugin-List">40+ supported tools</a>, among them you will find: 
+<img src="https://raw.github.com/wiki/infobyte/faraday/images/plugins/Plugins.png" alt=""></p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>The following platform are supported - <a href="https://github.com/infobyte/faraday/wiki/Installation">More information</a> :</p>
+
+<p><img src="https://raw.github.com/wiki/infobyte/faraday/images/platform/supported.png" alt="platform"> </p>
+
+<p>Quick install:</p>
+
+<p>Download the latest tarball by clicking <a href="https://github.com/infobyte/faraday/tarball/master">here</a> </p>
+
+<p>Preferably, you can download faraday by cloning the <a href="https://github.com/infobyte/faraday">Git</a> repository:</p>
+
+<pre><code>$ git clone https://github.com/infobyte/faraday.git faraday-dev
+$ cd faraday-dev
+$ ./install.sh
+</code></pre>
+
+<h2>
+<a id="usage-" class="anchor" href="#usage-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage </h2>
+
+<p>To get started, simply execute faraday and use the new console to start working in the pentest: </p>
+
+<pre><code>   $ ./faraday.py
+</code></pre>
+
+<h2>
+<a id="plugins-types" class="anchor" href="#plugins-types" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plugins types:</h2>
+
+<p>We have 3 kind of plugins:</p>
+
+<ul>
+<li>Plugins that intercept commands (directly detected when you execute commands in the console)<br>
+</li>
+<li>Plugins that import file reports (you have to copy the report to $HOME/.faraday/report/[workspacename] and faraday will automatically detect the report, process and added to the HostTree.</li>
+<li>Plugins connectors or online (BeEF, Metasploit, Burp) connect directly with external API or database or connect with Faraday RPC API.<br>
+</li>
+</ul>
+
+<h2>
+<a id="get-it-now" class="anchor" href="#get-it-now" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get it now!</h2>
+
+<p><a href="https://github.com/infobyte/faraday/tarball/master"><img src="https://raw.github.com/wiki/infobyte/faraday/images/download.png" alt="Download Tarball"></a></p>
+
+<h2>
+<a id="links" class="anchor" href="#links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h2>
+
+<ul>
+<li>Homepage: <a href="http://faradaysec.com">http://faradaysec.com</a>
+</li>
+<li>User's manual: <a href="https://github.com/infobyte/faraday/wiki">https://github.com/infobyte/faraday/wiki</a>
+</li>
+<li>Download: <a href="https://github.com/infobyte/faraday/tarball/master">.tar.gz</a>
+</li>
+<li>Commits RSS feed: <a href="https://github.com/infobyte/faraday/commits/master.atom">https://github.com/infobyte/faraday/commits/master.atom</a>
+</li>
+<li>Issue tracker: <a href="https://github.com/infobyte/faraday/issues">https://github.com/infobyte/faraday/issues</a>
+</li>
+<li>Frequently Asked Questions (FAQ): <a href="https://github.com/infobyte/faraday/wiki/FAQ">https://github.com/infobyte/faraday/wiki/FAQ</a>
+</li>
+<li>Mailing list subscription: <a href="https://groups.google.com/forum/#!forum/faradaysec">https://groups.google.com/forum/#!forum/faradaysec</a>
+</li>
+<li>Twitter: <a href="https://twitter.com/faradaysec">@faradaysec</a>
+</li>
+<li><a href="https://github.com/infobyte/faraday/wiki/Demos">Demos</a></li>
+<li>IRC: ircs://irc.freenode.net/faraday-dev</li>
+<li>Screenshots: <a href="https://github.com/infobyte/faraday/wiki/Screenshots">https://github.com/infobyte/faraday/wiki/Screenshots</a>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Faraday maintained by <a href="https://github.com/infobyte">infobyte</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
